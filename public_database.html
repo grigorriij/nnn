@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KLUS - Publiskā datubāze</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="database-section">
+            <h2>Publiskā datubāze</h2>
+            <p>Šajā datubāzē Tu vari apskatīt pieejamās vielas un aprīkojumu</p>
+            <input type="text" id="search" placeholder="Search">
+            <div class="filter-buttons">
+                <button class="btn" id="show-all">Rādīt visu</button>
+                <button class="btn" id="show-substances">Rādīt vielas</button>
+                <button class="btn" id="show-equipment">Rādīt aprīkojumu</button>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nosaukums</th>
+                        <th>Tips</th>
+                        <th>Apakštips</th>
+                        <th>Skaits</th>
+                        <th>Svars</th>
+                        <th>Komentāri</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Data will be inserted here by JavaScript -->
+                </tbody>
+            </table>
+        </div>
+        <a href="index.html" class="btn">Atpakaļ uz sākumlapu</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
